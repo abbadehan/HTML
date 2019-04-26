@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+        <div><h3>Ejemplo uso canvas</h3></div> 
+        <canvas id="micanvas" width="200" height="100" >
+            Este texto se muestra para los navegadores no compatibles con canvas.
+            <br>
+            Por favor, utiliza Fireforx, Chrome, Safari u Opera, colega
+        </canvas>
+        
+        <script>
+            var canvas= document.getElementById("micanvas");
+            var ctx = canvas.getContext('2d');
+           
+            ctx.fillRect(50,0,55,50);
+        </script>
+        
+    </body>
+</html>

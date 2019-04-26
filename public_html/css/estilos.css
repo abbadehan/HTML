@@ -1,0 +1,17 @@
+
+#contenedor { /* el # es para el id */
+    height: 500px;
+}
+header {
+    border: 1px solid red;
+    border-radius: 25px;
+    height: 50px; 
+   text-align: center;
+   color: #ffffff;
+   background-color: #000099;
+   font-size: 1.2em;
+}
+.tituloPrincipal{  /* el . es para class*/
+    font-size: 2em;
+   
+}
